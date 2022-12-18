@@ -1,5 +1,5 @@
 library(readxl)
-tempdata <- read_excel("Desktop/files/academic/college/2022-2023/STATS 371/Homework /tempdata.xlsx")
+tempdata <- read_excel("tempdata.xlsx")
 
 par(mfrow=c(1, 2))
 plot(tempdata$Year, tempdata$Anomaly, cex=0.1, pch=19, col="blue",
