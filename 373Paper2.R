@@ -1,7 +1,7 @@
 library(readxl)
 
-tempdata <- read_excel("Desktop/files/academic/college/2022-2023/STATS 371/Homework /tempdata.xlsx", sheet = "Sheet1")
-tempdata2 <- read_excel("Desktop/files/academic/college/2022-2023/STATS 371/Homework /tempdata.xlsx", sheet = "Sheet2")
+tempdata <- read_excel("tempdata.xlsx", sheet = "Sheet1")
+tempdata2 <- read_excel("tempdata.xlsx", sheet = "Sheet2")
 
 #99% CONFIDENCE RANGE OF PRE-INDUSTRIAL MEAN
 
